@@ -40,8 +40,8 @@ app.get('/about', (req,res) => {
 
 app.get('/help', (req,res) => {
     res.render('help', {
-        contact: '0800 83 83 83',
-        email: 'dominoes@pizza.com',
+        contact: 'This is help support',
+        email: 'no email',
         title: "Help",
         name: "JiaQi Li"
     })
